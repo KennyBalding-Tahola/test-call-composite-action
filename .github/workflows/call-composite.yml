@@ -28,4 +28,4 @@ jobs:
 
       - name: Upload logs
         if: ${{ !cancelled() }}
-        uses: Tahola-LTD/shared-actions/upload-logs@main
+        uses:  KennyBalding-Tahola/test-logging-snow-with-key-user/.github/shraed-actions/upload-logs@main
